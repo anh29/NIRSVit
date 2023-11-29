@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Upload, Button, message, Spin, Select } from "antd";
 import { UploadOutlined } from "@ant-design/icons";
 import "./App.css";
-import { uploadFile } from "./api";
+import { uploadFile } from "./uploadFile";
 
 const { Option } = Select;
 

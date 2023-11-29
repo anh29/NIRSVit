@@ -10,7 +10,6 @@ const uploadFile = async (file) => {
     const responseData = {
       success: true,
       message: "File uploaded successfully",
-      // Add any additional data you want to simulate
     };
 
     return responseData;
